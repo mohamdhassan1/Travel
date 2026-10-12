@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="push_booking_confirmed_title">تم تأكيد الحجز</string>
+    <string name="push_booking_confirmed_body">تم تأكيد حجزك %1$s.</string>
+    <string name="push_booking_cancelled_title">تم إلغاء الحجز</string>
+    <string name="push_booking_cancelled_body">تم إلغاء حجزك %1$s.</string>
+</resources>

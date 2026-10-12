@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ---------------------------------------------------------------------------
+# Rahala project rules
+# ---------------------------------------------------------------------------
+# Local build-time configuration (Supabase URL / publishable key). Use env/example.json as a template.
+/env/*.json
+!/env/example.json
+
+# Platform-local files
+/android/local.properties
+**/ephemeral/
+
+# JVM crash dumps produced by low-memory builds
+hs_err_pid*.log
+replay_pid*.log
+
+# Personal photos that used to live in the asset bundle; kept on disk only, never shipped.
+/images/
+
+# Firebase client config: project-specific, provided locally (see README).
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+
+# Supabase CLI local state
+/supabase/.temp/
+/supabase/.branches/
+
+# Supabase Edge Function secrets for local serving / `supabase secrets set
+# --env-file` (e.g. FIREBASE_SERVICE_ACCOUNT_JSON). Never commit them.
+/supabase/functions/.env
+/supabase/.env*
+*.env.local
+# Downloaded Firebase / Google service-account keys.
+*service-account*.json
+*-firebase-adminsdk-*.json
+
+# Generic local environment / secret files (any directory).
+.env
+.env.*
+!.env.example
+# Android release signing (keystore + its passwords), once configured.
+/android/key.properties
+*.jks
+*.keystore
+
+# Local Claude Code tooling (preview launch config).
+/.claude/

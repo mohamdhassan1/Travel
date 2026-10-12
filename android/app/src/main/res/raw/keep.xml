@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resources referenced only by name at runtime (FCM payloads, Dart code):
+     keep them when release builds shrink resources. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_stat_rahala,@color/notification_accent,@string/push_booking_confirmed_title,@string/push_booking_confirmed_body,@string/push_booking_cancelled_title,@string/push_booking_cancelled_body" />

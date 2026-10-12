@@ -1,0 +1,759 @@
+{
+  "@@locale": "en",
+  "appName": "Rahala",
+  "commonRetry": "Try again",
+  "commonCancel": "Cancel",
+  "commonGoHome": "Go to home",
+  "commonLoading": "Loading…",
+  "commonSystemDefault": "System default",
+  "errorNetwork": "You appear to be offline. Check your connection and try again.",
+  "errorTimeout": "The server is taking too long to respond. Please try again.",
+  "errorServer": "Something went wrong on our side. Please try again in a moment.",
+  "errorUnknown": "Something unexpected happened. Please try again.",
+  "errorPermissionDenied": "You don't have permission to do that.",
+  "errorNotFound": "We couldn't find what you were looking for.",
+  "errorSessionExpired": "Your session has expired. Please sign in again.",
+  "errorRateLimited": "Too many attempts. Please wait a minute and try again.",
+  "validationRequired": "This field is required",
+  "validationEmailInvalid": "Enter a valid email address",
+  "validationPasswordTooShort": "Use at least {min} characters",
+  "@validationPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "validationPasswordWeak": "Include at least one letter and one number",
+  "validationPasswordMismatch": "Passwords don't match",
+  "validationNameTooShort": "Enter at least 2 characters",
+  "validationNameTooLong": "Keep it under {max} characters",
+  "@validationNameTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboarding1Title": "Discover places that move you",
+  "onboarding1Body": "Hand-picked destinations with honest details, local seasons and live weather.",
+  "onboarding2Title": "Plan every detail in one place",
+  "onboarding2Body": "Compare packages, choose your dates and travellers, and review the full price before you book.",
+  "onboarding3Title": "Travel with timely reminders",
+  "onboarding3Body": "Keep your trips organised and get reminders before you depart.",
+  "onboardingCreateAccount": "Create an account",
+  "onboardingHaveAccount": "I already have an account",
+  "onboardingPageLabel": "Page {current} of {total}",
+  "@onboardingPageLabel": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "authEmailLabel": "Email",
+  "authEmailHint": "you@example.com",
+  "authPasswordLabel": "Password",
+  "authConfirmPasswordLabel": "Confirm password",
+  "authNewPasswordLabel": "New password",
+  "authFullNameLabel": "Full name",
+  "authFullNameHint": "As it appears on your ID",
+  "authShowPassword": "Show password",
+  "authHidePassword": "Hide password",
+  "authPasswordRequirements": "At least 8 characters, with letters and numbers.",
+  "loginTitle": "Welcome back",
+  "loginSubtitle": "Sign in to continue planning your trips.",
+  "loginButton": "Sign in",
+  "loginForgotPassword": "Forgot password?",
+  "loginNoAccount": "New to Rahala?",
+  "loginCreateAccount": "Create an account",
+  "loginResendConfirmation": "Resend confirmation email",
+  "loginConfirmationResent": "Confirmation email sent. Check your inbox.",
+  "registerTitle": "Create your account",
+  "registerSubtitle": "Save favourites, book trips and keep everything in sync.",
+  "registerButton": "Create account",
+  "registerHaveAccount": "Already have an account?",
+  "registerSignIn": "Sign in",
+  "registerCheckInboxTitle": "Check your inbox",
+  "registerCheckInboxBody": "If {email} isn't registered yet, we've sent a confirmation link to it. Open the link to activate your account, then sign in.",
+  "@registerCheckInboxBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "registerResend": "Resend email",
+  "registerResendIn": "Resend in {seconds}s",
+  "@registerResendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "registerBackToSignIn": "Back to sign in",
+  "registerEmailResent": "We've sent the email again.",
+  "forgotTitle": "Reset your password",
+  "forgotSubtitle": "Enter the email you signed up with and we'll send you a secure reset link.",
+  "forgotButton": "Send reset link",
+  "forgotSentTitle": "Check your email",
+  "forgotSentBody": "If an account exists for {email}, a password reset link is on its way. Open it on this device to choose a new password.",
+  "@forgotSentBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "resetTitle": "Choose a new password",
+  "resetSubtitle": "You're signed in through a secure reset link. Set a new password to finish.",
+  "resetButton": "Update password",
+  "resetSuccess": "Your password has been updated.",
+  "authErrorInvalidCredentials": "Incorrect email or password.",
+  "authErrorEmailNotConfirmed": "Please confirm your email address before signing in.",
+  "authErrorEmailInUse": "An account with this email already exists. Try signing in instead.",
+  "authErrorWeakPassword": "That password is too weak. Choose a longer, less common one.",
+  "authErrorSamePassword": "Your new password must be different from the old one.",
+  "authErrorSignupDisabled": "New sign-ups are currently disabled.",
+  "sessionEndedBanner": "You've been signed out. Please sign in again.",
+  "accountEmailVerified": "Email verified",
+  "accountEmailNotVerified": "Email not verified",
+  "accountMemberSince": "Member since {date}",
+  "@accountMemberSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "accountSectionAbout": "About",
+  "accountSignOut": "Sign out",
+  "accountSignOutConfirmTitle": "Sign out?",
+  "accountSignOutConfirmBody": "You'll need to sign in again to see your trips and favourites.",
+  "accountSignedOutLocally": "Signed out on this device. We couldn't reach the server to end other sessions.",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Appearance",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsPhotoCredits": "Photo credits",
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+  "creditsTitle": "Photo credits",
+  "creditsIntro": "Photos are used under their original licences. Thank you to the photographers.",
+  "notFoundTitle": "Page not found",
+  "notFoundBody": "The link you followed may be broken or the page may have moved.",
+  "configErrorTitle": "App configuration required",
+  "configErrorMissing": "This build doesn't include backend settings. Run the app with --dart-define-from-file=env/dev.json (see README).",
+  "configErrorInvalidUrl": "The configured Supabase URL is not a valid https URL.",
+  "configErrorSecretKey": "A secret/service-role key was supplied. Only the publishable key may be used in the app.",
+  "errorInvalidData": "We received data we couldn't read. Please try again later.",
+  "destinationsEmptyTitle": "No destinations yet",
+  "destinationsEmptyBody": "The catalog is empty right now. Check back soon.",
+  "destinationsErrorTitle": "Couldn't load destinations",
+  "destinationFeatured": "Featured",
+  "destinationFromPrice": "From {price}",
+  "@destinationFromPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "destinationPerPerson": "per person",
+  "destinationNoPackages": "No packages available yet",
+  "destinationDays": "{count, plural, =1{1 day} other{{count} days}}",
+  "@destinationDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "destinationDaysRange": "{min}–{max} days",
+  "@destinationDaysRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "destinationImageUnavailable": "Image unavailable",
+  "accountBrowseDestinations": "Browse destinations",
+  "profileLoadError": "We couldn't load your profile details.",
+  "detailsAbout": "About",
+  "detailsBestSeason": "Best time to visit",
+  "detailsCoordinates": "Coordinates",
+  "detailsGallery": "Gallery",
+  "detailsGalleryPhoto": "Photo {index} of {total}",
+  "@detailsGalleryPhoto": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "detailsPhotoCredit": "Photos: {credit}",
+  "@detailsPhotoCredit": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "detailsPackagesTitle": "Packages",
+  "detailsPackagesEmpty": "No packages are available for this destination right now.",
+  "detailsPackagesError": "Couldn't load packages.",
+  "detailsNotFoundTitle": "Destination not found",
+  "detailsNotFoundBody": "It may no longer be available, or the link is incorrect.",
+  "detailsErrorTitle": "Couldn't load this destination",
+  "detailsBackToDestinations": "Back to destinations",
+  "detailsPriceNote": "Sample prices per person. No payment is taken in this app.",
+  "packageIncludes": "What's included",
+  "packageMaxTravelers": "{count, plural, =1{Up to 1 traveller} other{Up to {count} travellers}}",
+  "@packageMaxTravelers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesTitle": "Favourites",
+  "favoritesEmptyTitle": "No favourites yet",
+  "favoritesEmptyBody": "Tap the heart on any destination to save it here.",
+  "favoritesErrorTitle": "Couldn't load your favourites",
+  "favoriteAdd": "Add to favourites",
+  "favoriteRemove": "Remove from favourites",
+  "favoriteAdded": "Saved to favourites",
+  "favoriteRemoved": "Removed from favourites",
+  "favoriteAddFailed": "Couldn't save to favourites. {reason}",
+  "@favoriteAddFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "favoriteRemoveFailed": "Couldn't remove from favourites. {reason}",
+  "@favoriteRemoveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "commonUndo": "Undo",
+  "errorInvalidInput": "Some of the details you entered aren't valid. Please check them and try again.",
+  "bookingErrorPackageUnavailable": "This package is no longer available. Please choose another one.",
+  "bookingErrorTooManyTravelers": "This package doesn't allow that many travellers.",
+  "bookingErrorInvalidDate": "Please choose a travel date between tomorrow and one year from now.",
+  "bookingErrorNotCancellable": "This booking can no longer be cancelled.",
+  "validationPhoneInvalid": "Enter a valid phone number (digits, spaces, + ( ) -)",
+  "validationTextTooLong": "Keep it under {max} characters",
+  "@validationTextTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "packageBookCta": "Book this package",
+  "bookingTitle": "Book your trip",
+  "bookingPackageLabel": "Package",
+  "bookingPackageRequired": "Choose a package",
+  "bookingNoPackages": "This destination has no bookable packages right now.",
+  "bookingLoadErrorTitle": "Couldn't load booking options",
+  "bookingTravelDateLabel": "Travel date",
+  "bookingTravelDatePick": "Choose a date",
+  "bookingTravelDateHint": "You can book from tomorrow up to one year ahead.",
+  "bookingTravelDateRequired": "Choose a travel date",
+  "bookingTravelersLabel": "Travellers",
+  "bookingTravelersMax": "{count, plural, =1{This package is for 1 traveller.} other{This package allows up to {count} travellers.}}",
+  "@bookingTravelersMax": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bookingTravelersDecrease": "Fewer travellers",
+  "bookingTravelersIncrease": "More travellers",
+  "bookingTravelersCount": "{count, plural, =1{1 traveller} other{{count} travellers}}",
+  "@bookingTravelersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bookingContactSection": "Contact details",
+  "bookingContactName": "Lead traveller's full name",
+  "bookingContactPhone": "Phone number",
+  "bookingContactPhoneHint": "+20 100 000 0000",
+  "bookingSpecialRequests": "Special requests (optional)",
+  "bookingSpecialRequestsHint": "Dietary needs, accessibility, room preferences…",
+  "bookingContinueToReview": "Review booking",
+  "bookingReviewTitle": "Review your booking",
+  "bookingReviewEdit": "Edit details",
+  "bookingPricePerPerson": "Price per person",
+  "bookingTotal": "Total",
+  "bookingTotalNote": "The final amount is calculated by our server from the package price when you confirm.",
+  "bookingNoPaymentNote": "No payment is taken in this app, and availability isn't checked in real time. Confirming records your reservation.",
+  "bookingConfirmCta": "Confirm booking",
+  "bookingConfirmedTitle": "Booking confirmed",
+  "bookingConfirmedBody": "Your reservation has been recorded. Keep your reference for any questions.",
+  "bookingReference": "Reference",
+  "bookingViewMyBookings": "View my bookings",
+  "bookingDone": "Done",
+  "myBookingsTitle": "My bookings",
+  "myBookingsFilterUpcoming": "Upcoming",
+  "myBookingsFilterPast": "Past",
+  "myBookingsFilterCancelled": "Cancelled",
+  "myBookingsEmptyTitle": "No bookings yet",
+  "myBookingsEmptyBody": "When you book a trip, it will appear here.",
+  "myBookingsNoUpcoming": "You have no upcoming trips.",
+  "myBookingsNoPast": "You have no past trips.",
+  "myBookingsNoCancelled": "You have no cancelled bookings.",
+  "myBookingsErrorTitle": "Couldn't load your bookings",
+  "bookingStatusConfirmed": "Confirmed",
+  "bookingStatusCancelled": "Cancelled",
+  "bookingPastTrip": "Past trip",
+  "bookingDetailsTitle": "Booking details",
+  "bookingBookedOn": "Booked on {date}",
+  "@bookingBookedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingCancelledOn": "Cancelled on {date}",
+  "@bookingCancelledOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingContact": "Contact",
+  "bookingCancelCta": "Cancel booking",
+  "bookingCancelConfirmTitle": "Cancel this booking?",
+  "bookingCancelConfirmBody": "This can't be undone. Your reservation for {destination} on {date} will be cancelled.",
+  "@bookingCancelConfirmBody": {
+    "placeholders": {
+      "destination": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingCancelKeep": "Keep booking",
+  "bookingCancelledToast": "Booking cancelled",
+  "bookingCancelFailed": "Couldn't cancel the booking. {reason}",
+  "@bookingCancelFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingCancelPolicy": "Bookings can be cancelled until the day before travel.",
+  "bookingCatalogItemUnavailable": "No longer listed in the catalog",
+  "bookingNotFoundTitle": "Booking not found",
+  "bookingNotFoundBody": "It may belong to another account, or the link is incorrect.",
+  "bookingErrorTitle": "Couldn't load this booking",
+  "bookingErrorIdempotencyConflict": "This booking request matches an earlier one with different details. Check My bookings, then try again.",
+  "accountNotifications": "Notifications",
+  "notificationsTitle": "Notifications",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsEmptyBody": "When you book or cancel a trip, the update will appear here.",
+  "notificationsErrorTitle": "Couldn't load notifications",
+  "notificationsMarkAllRead": "Mark all as read",
+  "notificationsActionFailed": "Couldn't update notifications. {error}",
+  "@notificationsActionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsUnreadCount": "{count, plural, =0{No unread notifications} =1{1 unread notification} other{{count} unread notifications}}",
+  "@notificationsUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationUnread": "Unread",
+  "notificationBookingConfirmedTitle": "Booking confirmed",
+  "notificationBookingCancelledTitle": "Booking cancelled",
+  "notificationTripReminderTitle": "Trip reminder",
+  "notificationTripOn": "{destination} on {date}",
+  "@notificationTripOn": {
+    "placeholders": {
+      "destination": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationReference": "Ref. {reference}",
+  "@notificationReference": {
+    "placeholders": {
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSectionNotifications": "Notifications",
+  "settingsTripReminders": "Trip reminders",
+  "settingsTripRemindersSubtitle": "On this device, at 9:00 the day before each confirmed trip",
+  "settingsNotificationsUnsupported": "Trip reminders and push notifications aren't available on this platform.",
+  "settingsNotificationsAllowHint": "Allow notifications so trip reminders can appear.",
+  "settingsNotificationsAllow": "Allow",
+  "settingsNotificationsBlocked": "Notifications are turned off for Rahala in your device settings.",
+  "settingsNotificationsOpenSettings": "Open settings",
+  "notificationsPermissionDeniedToast": "Notifications weren't allowed. You can turn them on later in your device settings.",
+  "tripReminderChannelName": "Trip reminders",
+  "tripReminderChannelDescription": "Reminders the day before your booked trips",
+  "tripReminderTitle": "Your trip to {destination} is tomorrow",
+  "@tripReminderTitle": {
+    "placeholders": {
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "tripReminderTitleGeneric": "Your trip is tomorrow",
+  "tripReminderBody": "{package} · {date} · Ref. {reference}",
+  "@tripReminderBody": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "tripReminderBodyNoPackage": "{date} · Ref. {reference}",
+  "@tripReminderBodyNoPackage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "commonView": "View",
+  "pushForegroundBookingConfirmed": "Booking confirmed",
+  "pushForegroundBookingCancelled": "Booking cancelled",
+  "bookingUpdatesChannelName": "Booking updates",
+  "bookingUpdatesChannelDescription": "Confirmations and cancellations of your bookings",
+  "settingsPushTitle": "Booking updates",
+  "settingsPushOn": "Confirmations and cancellations are sent to this device.",
+  "settingsPushNeedsPermission": "Allow notifications to get booking updates on this device.",
+  "settingsPushUnavailable": "Push notifications aren't set up for this device yet.",
+  "settingsPushNotRegistered": "This device isn't registered for booking updates yet. Rahala will retry when you reopen the app.",
+  "navHome": "Home",
+  "navExplore": "Explore",
+  "navTrips": "Trips",
+  "navSaved": "Saved",
+  "navProfile": "Profile",
+  "listSeparator": ", ",
+  "homeGreetingMorning": "Good morning",
+  "homeGreetingAfternoon": "Good afternoon",
+  "homeGreetingEvening": "Good evening",
+  "homeGreetingName": "{greeting}, {name}",
+  "@homeGreetingName": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeHeadline": "Where to next?",
+  "homeNotificationsUnread": "{count, plural, =1{Notifications, 1 unread} other{Notifications, {count} unread}}",
+  "@homeNotificationsUnread": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeSearchHint": "Search destinations or countries",
+  "homeNextTrip": "Your next trip",
+  "homeSeeAllTrips": "All trips",
+  "homeTripToday": "Today",
+  "homeTripTomorrow": "Tomorrow",
+  "homeTripInDays": "{days, plural, =1{In 1 day} other{In {days} days}}",
+  "@homeTripInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "homeTripsError": "Couldn't load your trips.",
+  "homeNoTripTitle": "No upcoming trips",
+  "homeNoTripBody": "Your next adventure starts with a destination.",
+  "homeNoTripCta": "Explore",
+  "homeCategories": "Browse by type",
+  "homeFeatured": "Featured destinations",
+  "homeFeaturedSubtitle": "Hand-picked from the Rahala catalog",
+  "homeSeeAll": "See all",
+  "homeRecentlyViewed": "Recently viewed",
+  "homeSavedShortcut": "{count, plural, =1{1 saved destination} other{{count} saved destinations}}",
+  "@homeSavedShortcut": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeMoreToExplore": "More to explore",
+  "homeMoreToExploreSubtitle": "Every other destination in the catalog",
+  "homeCatalogError": "Couldn't load destinations.",
+  "exploreTitle": "Explore",
+  "exploreSearchHint": "Destination, country or experience",
+  "exploreClearSearch": "Clear search",
+  "exploreFilters": "Filters",
+  "exploreAllCategories": "All",
+  "exploreResultCount": "{count, plural, =1{1 destination} other{{count} destinations}}",
+  "@exploreResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exploreSort": "Sort",
+  "exploreSortFeatured": "Featured first",
+  "exploreSortPriceLow": "Price: low to high",
+  "exploreSortPriceHigh": "Price: high to low",
+  "exploreSortName": "Name (A–Z)",
+  "exploreNoResultsTitle": "No matching destinations",
+  "exploreNoResultsBody": "Nothing matches “{query}”. Try another name or country, or clear the filters.",
+  "@exploreNoResultsBody": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "exploreNoResultsFiltersBody": "No destination fits these filters. Try widening them.",
+  "exploreClearAll": "Clear search & filters",
+  "exploreMaxPrice": "Starting price per person",
+  "exploreAnyPrice": "Any price",
+  "explorePriceUpTo": "Up to {price}",
+  "@explorePriceUpTo": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "explorePriceNote": "Based on each destination's cheapest package. Prices are sample catalog prices.",
+  "exploreTripLength": "Trip length",
+  "exploreLengthShort": "Short break (1–3 days)",
+  "exploreLengthMedium": "4–6 days",
+  "exploreLengthLong": "A week or more",
+  "exploreReset": "Reset",
+  "exploreApply": "Show results",
+  "profileTitle": "Profile",
+  "profileEdit": "Edit profile",
+  "profileSave": "Save changes",
+  "profileSaved": "Profile updated.",
+  "profileSaveFailed": "Couldn't save your profile.",
+  "profileDiscardTitle": "Discard changes?",
+  "profileDiscardBody": "Your edits haven't been saved.",
+  "profileDiscard": "Discard",
+  "profileKeepEditing": "Keep editing",
+  "profilePhoneLabel": "Phone (optional)",
+  "profilePhoneHint": "e.g. +20 100 000 0000",
+  "profileEmailReadOnly": "Your sign-in email can't be changed here.",
+  "profileStatsError": "Couldn't load your trip statistics.",
+  "profilePhotoChange": "Change photo",
+  "profilePhotoGallery": "Choose from gallery",
+  "profilePhotoCamera": "Take a photo",
+  "profilePhotoRemove": "Remove photo",
+  "profilePhotoUpdated": "Profile photo updated.",
+  "profilePhotoRemoved": "Profile photo removed.",
+  "profilePhotoFailed": "Couldn't update your photo.",
+  "profilePhotoTooLarge": "That photo is too large (max 2 MB). Try another one.",
+  "profilePhotoPickFailed": "Couldn't open the photo picker. Check the app's permissions.",
+  "levelTitle": "Traveler level",
+  "levelNewTraveler": "New traveler",
+  "levelExplorer": "Explorer",
+  "levelVoyager": "Voyager",
+  "levelGlobetrotter": "Globetrotter",
+  "levelHowItWorks": "How levels work",
+  "levelProgress": "Progress to the next level",
+  "levelTopReached": "You've reached the top level. Happy travels!",
+  "levelNextHint": "{missing} to become {level}.",
+  "@levelNextHint": {
+    "placeholders": {
+      "missing": {
+        "type": "String"
+      },
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "levelTripsMore": "{count, plural, =1{1 more completed trip} other{{count} more completed trips}}",
+  "@levelTripsMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelCountriesMore": "{count, plural, =1{1 more country} other{{count} more countries}}",
+  "@levelCountriesMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelRulesIntro": "Your level comes only from trips you have actually taken with Rahala: confirmed bookings whose travel date has passed. Cancelled bookings don't count.",
+  "levelRuleStart": "Where everyone starts",
+  "levelRule": "{trips} in {countries}",
+  "@levelRule": {
+    "placeholders": {
+      "trips": {
+        "type": "String"
+      },
+      "countries": {
+        "type": "String"
+      }
+    }
+  },
+  "levelTripsCount": "{count, plural, =1{1 completed trip} other{{count} completed trips}}",
+  "@levelTripsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelCountriesCount": "{count, plural, =1{1 country} other{{count} different countries}}",
+  "@levelCountriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelRulesNote": "This isn't a rating from other people — Rahala has no reviews. It simply reflects your own travel history.",
+  "statsCompleted": "Trips taken",
+  "statsUpcoming": "Upcoming",
+  "statsDestinations": "Destinations visited",
+  "statsCountries": "Countries visited",
+  "statsFootnote": "{total, plural, =1{Based on your 1 booking} other{Based on your {total} bookings}} · {cancelled, plural, =0{none cancelled} =1{1 cancelled} other{{cancelled} cancelled}}",
+  "@statsFootnote": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "cancelled": {
+        "type": "int"
+      }
+    }
+  },
+  "statsNoBookings": "No bookings yet — your statistics will appear after your first trip.",
+  "weatherTitle": "Weather now",
+  "weatherUnavailable": "Weather is unavailable right now.",
+  "weatherSource": "Live weather at the destination · data by Open-Meteo.com",
+  "weatherDegrees": "{value}°C",
+  "@weatherDegrees": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherClear": "Clear",
+  "weatherPartlyCloudy": "Partly cloudy",
+  "weatherCloudy": "Cloudy",
+  "weatherFog": "Fog",
+  "weatherDrizzle": "Drizzle",
+  "weatherRain": "Rain",
+  "weatherSnow": "Snow",
+  "weatherShowers": "Showers",
+  "weatherThunderstorm": "Thunderstorm",
+  "weatherUnknown": "Weather",
+  "detailsShare": "Share",
+  "detailsShareText": "{name}, {country} — {summary}\nOpen in Rahala: {link}",
+  "@detailsShareText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      },
+      "summary": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "detailsShareUnavailable": "Sharing isn't available on this device.",
+  "accountDelete": "Delete account",
+  "accountDeleteTitle": "Delete your account?",
+  "accountDeleteBody": "This permanently deletes your profile, photo, bookings, saved destinations and notifications from Rahala. It can't be undone.",
+  "accountDeleteConfirmCheck": "I understand this can't be undone",
+  "accountDeleteCta": "Delete permanently",
+  "accountDeleted": "Your account has been deleted.",
+  "accountDeleteFailed": "Couldn't delete your account. {reason}",
+  "@accountDeleteFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSectionAccount": "Account",
+  "accountChangePassword": "Change password",
+  "changePasswordTitle": "Change your password",
+  "changePasswordSubtitle": "Choose a new password for your account. You'll stay signed in on this device.",
+  "bookingErrorRateLimited": "You've made several bookings in the last hour. Please try again later.",
+  "bookingViewDestination": "View destination",
+  "favoritesRefreshFailed": "Couldn't refresh your saved destinations. {reason}",
+  "@favoritesRefreshFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Remote push text (FCM title_loc_key / body_loc_key from the
+         send-booking-notification Edge Function). %1$s = booking reference. -->
+    <string name="push_booking_confirmed_title">Booking confirmed</string>
+    <string name="push_booking_confirmed_body">Your booking %1$s is confirmed.</string>
+    <string name="push_booking_cancelled_title">Booking cancelled</string>
+    <string name="push_booking_cancelled_body">Your booking %1$s was cancelled.</string>
+</resources>
